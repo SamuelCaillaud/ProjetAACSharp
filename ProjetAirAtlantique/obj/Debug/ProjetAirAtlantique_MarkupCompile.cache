@@ -4,15 +4,22 @@
 winexe
 C#
 .cs
-C:\Users\Arkasia\Desktop\Cours\TPRE415\ProjetAACSharp\ProjetAACSharp\ProjetAirAtlantique\obj\Debug\
+C:\Users\Sam\source\repos\ProjetAirAtlantique\ProjetAirAtlantique\obj\Debug\
 ProjetAirAtlantique
 none
 false
 DEBUG;TRACE
+<<<<<<< refs/remotes/ProjetAACSharp/master
 C:\Users\Arkasia\Desktop\Cours\TPRE415\ProjetAACSharp\ProjetAACSharp\ProjetAirAtlantique\App.xaml
 22085181132
 
 13-547252704
+=======
+C:\Users\Sam\source\repos\ProjetAirAtlantique\ProjetAirAtlantique\App.xaml
+11151548125
+
+112040069198
+>>>>>>> CheckPoint Sam
 131569487696
 FidélitéClient.xaml;MainWindow.xaml;
 
