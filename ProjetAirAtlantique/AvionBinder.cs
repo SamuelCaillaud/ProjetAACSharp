@@ -5,7 +5,7 @@ namespace ProjetAirAtlantique
 {
     class AvionBinder : INotifyPropertyChanged
     {
-        private string 
+        private int disponibilité;
 
     }
 }
