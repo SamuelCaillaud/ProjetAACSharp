@@ -8,20 +8,23 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="WhiteSmoke">
 
-        <TextBox FontSize="40" HorizontalAlignment="Center" Margin="57,0,57.6,358"  >Air Atlantique | Administration session"</TextBox>
+        <Label FontSize="30" Content="Air Atlantique | Administration session" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
-        <Border BorderBrush="Black" BorderThickness="4" Margin="6,304,554.6,52" />
-        <Button FontSize="18" Margin="10,91,557.6,273">Entrer un avion arrêté</Button>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="34,240,556.6,136" />
+        <Button FontSize="16" Margin="35,109,557.6,273">Ajouter un avion à arrêter</Button>
 
-        <Border BorderBrush="Black" BorderThickness="4" Margin="6,194,554.6,163" />
-        <Button FontSize="18" Margin="10,198,557.6,166">Ajouter un client fidèle</Button>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="34,168,556.6,207" />
+        <Button FontSize="16" Margin="35,170,557.6,208">Fidéliser un client</Button>
 
-        <Border BorderBrush="Black" BorderThickness="4" Margin="10,91,557.6,273" />
-        <Button FontSize="18" Margin="10,308,557.6,56">Planifier une maintenance</Button>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="34,109,557.6,273" />
+        <Button FontSize="16" Margin="35,242,557.6,137">Planifier une maintenance</Button>
 
-        <Border BorderBrush="Black" BorderThickness="4" Margin="673,304,5.6,6" ></Border>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="34,307,556.6,70" />
+        <Button FontSize="16" Margin="35,308,557.6,71">Passer une commande de Réapprovisionnement</Button>
+        
+        <Border BorderBrush="Black" BorderThickness="2" Margin="673,304,5.6,6" ></Border>
         <Image Margin="677,308,9.6,10" Source="logo.PNG" Stretch="Fill"/>
-
+        
 
     </Grid>
 </Window>
