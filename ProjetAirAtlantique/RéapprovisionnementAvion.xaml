@@ -12,16 +12,15 @@
 
         <Label FontSize="30" Content="Air Atlantique | Administration session" HorizontalAlignment="center" VerticalAlignment="Top"/>
         <Label FontSize="18" Content="Réapprovisionnement Avion" HorizontalAlignment="center" Margin="290,50,274,362.6" Width="236"/>
-
-        <Label FontSize="18" Content="Demande de réapprovisionnement :" HorizontalAlignment="Center" Margin="253,87,253,329.6" Width="294"/>
-        <Menu HorizontalAlignment="Center" Height="23"  Width="220" Margin="290,130,290,296.6"/>
+        <Menu HorizontalAlignment="Center" Height="23"  Width="220" Margin="290,207,290,219.6"/>
 
         <Border BorderBrush="Black" BorderThickness="2" Margin="675,342,9,5.6" ></Border>
         <Image Margin="677,344,10,10" Source="logo.PNG" Stretch="Fill"/>
 
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="271" Margin="250,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="2"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="271" Margin="548,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="2"/>
-        <Button Content="Valider" HorizontalAlignment="center" Width="220" Margin="290,235,290,194.6" />
+        <Button Content="Demande de réapprovisionnement :" HorizontalAlignment="center" Width="220" Margin="290,264,290,165.6" />
+        <Label FontSize="18" Content="Voir stock d'un avion :" HorizontalAlignment="Center" Margin="309,125,307,291.6" Width="184"/>
 
     </Grid>
 </Page>
