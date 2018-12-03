@@ -1,0 +1,25 @@
+﻿<Page x:Class="ProjetAirAtlantique.Connection"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjetAirAtlantique"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Connection">
+
+    <Grid Background="WhiteSmoke" Margin="9,-15,-9,14.6">
+
+        <Label FontSize="30" Content="Air Atlantique | Administration session" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        <Border BorderBrush="Black" BorderThickness="2" Margin="257,124,221,162" />
+        <Button FontSize="16" Margin="258,232,223,163" Click="Button_Click">Connection</Button>
+
+        <Border BorderBrush="Black" BorderThickness="2" Margin="675,342,9,5.6" ></Border>
+        <Image Margin="677,344,10,10" Source="logo.PNG" Stretch="Fill"/>
+        <TextBox  Height="54" FontSize="25" Margin="258,178,223,218" TextWrapping="Wrap" Text="TextBox" TextChanged="TextBox_TextChanged"/>
+        <TextBox  Height="54" FontSize="25" Margin="258,124,223,272" TextWrapping="Wrap" Text="TextBox" TextChanged="TextBox_TextChanged"/>
+
+
+    </Grid>
+</Page>
