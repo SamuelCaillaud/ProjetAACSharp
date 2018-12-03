@@ -7,11 +7,5 @@ namespace ProjetAirAtlantique
     {
         private int disponibilité;
 
-        public AvionBinder()
-        {
-
-        }
-
-        public AvionBinder()
     }
 }

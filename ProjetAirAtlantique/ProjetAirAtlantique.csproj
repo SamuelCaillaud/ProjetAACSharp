@@ -36,13 +36,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>..\mysql-connector.net\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\mysql-connector.net\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data.Entity">
-      <HintPath>..\mysql-connector.net\MySql.Data.Entity.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\mysql-connector.net\MySql.Data.Entity.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Web">
-      <HintPath>..\mysql-connector.net\MySql.Web.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\mysql-connector.net\MySql.Web.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

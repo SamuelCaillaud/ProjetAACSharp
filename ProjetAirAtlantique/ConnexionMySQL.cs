@@ -13,6 +13,7 @@ namespace ProjetAirAtlantique
         private string user;
         private string password;
 
+
         public Boolean OpenConnection()
         {
             server = "localhost";
@@ -36,7 +37,7 @@ namespace ProjetAirAtlantique
             List<AvionBinder> ListAvions = new List<AvionBinder>();
 
             string query = "SELECT * FROM avions;";
-            MySqlCommand cmd = new MySqlCommand(query, connexion);
+            MySqlCommand cmd = new MySqlCommand(query, connection);
             cmd.ExecuteNonQuery();
 
             MySqlDataReader reader = cmd.ExecuteReader();
