@@ -13,7 +13,6 @@ namespace ProjetAirAtlantique
         private string user;
         private string password;
 
-
         public Boolean OpenConnection()
         {
             server = "localhost";
