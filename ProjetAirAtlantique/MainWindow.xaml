@@ -11,16 +11,16 @@
         <Label FontSize="30" Content="Air Atlantique | Administration session" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
         <Border BorderBrush="Black" BorderThickness="2" Margin="34,240,556.6,136" />
-        <Button FontSize="16" Margin="35,104,557.6,273">Ajouter un avion à arrêter</Button>
+        <Button FontSize="16" Margin="35,109,557.6,273">Ajouter un avion à arrêter</Button>
 
         <Border BorderBrush="Black" BorderThickness="2" Margin="34,168,556.6,207" />
         <Button FontSize="16" Margin="35,170,557.6,208">Fidéliser un client</Button>
 
-        <Border BorderBrush="Black" BorderThickness="2" Margin="34,104,557.6,273" />
+        <Border BorderBrush="Black" BorderThickness="2" Margin="34,109,557.6,273" />
         <Button FontSize="16" Margin="35,242,557.6,137">Planifier une maintenance</Button>
 
-        <Border BorderBrush="Black" BorderThickness="2" Margin="34,307,410.6,70" />
-        <Button FontSize="16" Margin="35,308,412.6,71">Passer une commande de Réapprovisionnement</Button>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="34,307,556.6,70" />
+        <Button FontSize="16" Margin="35,308,557.6,71">Passer une commande de Réapprovisionnement</Button>
         
         <Border BorderBrush="Black" BorderThickness="2" Margin="673,304,5.6,6" ></Border>
         <Image Margin="677,308,9.6,10" Source="logo.PNG" Stretch="Fill"/>
