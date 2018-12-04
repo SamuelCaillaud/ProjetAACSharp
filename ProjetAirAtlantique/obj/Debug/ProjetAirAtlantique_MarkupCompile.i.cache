@@ -9,12 +9,21 @@ ProjetAirAtlantique
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Sam\source\repos\ProjetAACSharp\ProjetAirAtlantique\App.xaml
 22085181132
 
 21981409324
 16-1313552476
 FidélitéClient.xaml;MainWindow.xaml;
+=======
+C:\Users\Arkasia\Desktop\Cours\TPRE415\ProjetAACSharp\ProjetAACSharp\ProjetAirAtlantique\App.xaml
+5-456877969
+
+151361762696
+131569487696
+GestionsVols.xaml;GestionVolsAjouter.xaml;GestionVolsAjouter2.xaml;GestionVolsModifier.xaml;MainWindow.xaml;
+>>>>>>> XMLmodif
 
 False
 

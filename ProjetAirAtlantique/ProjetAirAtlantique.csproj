@@ -64,11 +64,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Compile Include="TajetVol.cs" />
     <Compile Include="Trajet.cs" />
     <Compile Include="Vol.cs" />
     <Compile Include="Voyage.cs" />
     <Page Include="FidélitéClient.xaml">
+=======
+    <Page Include="GestionsVols.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionVolsAjouter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionVolsAjouter2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionVolsModifier.xaml">
+>>>>>>> XMLmodif
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -84,24 +100,32 @@
     <Compile Include="Avion.cs" />
     <Compile Include="AvionBinder.cs" />
     <Compile Include="ConnexionMySQL.cs" />
-    <Compile Include="FidélitéClient.xaml.cs">
-      <DependentUpon>FidélitéClient.xaml</DependentUpon>
+    <Compile Include="GestionsVols.xaml.cs">
+      <DependentUpon>GestionsVols.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVolsAjouter.xaml.cs">
+      <DependentUpon>GestionVolsAjouter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVolsAjouter2.xaml.cs">
+      <DependentUpon>GestionVolsAjouter2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVolsModifier.xaml.cs">
+      <DependentUpon>GestionVolsModifier.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <None Include="Gestion des vols">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </None>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Modele.cs" />
     <Compile Include="Motorisation.cs" />
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Gestion des vols</DependentUpon>
     </Compile>
+=======
+>>>>>>> XMLmodif
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
