@@ -4,6 +4,10 @@
     "\\ProjetAirAtlantique",
     "\\ProjetAirAtlantique\\Assets"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\ProjetAirAtlantique\\Gestion des vols.xaml",
+=======
+  "SelectedNode": "\\ProjetAirAtlantique\\ConnexionMySQL.cs",
+>>>>>>> bdd
   "PreviewInSolutionExplorer": false
 }

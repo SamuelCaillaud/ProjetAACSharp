@@ -36,13 +36,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\Desktop\mysql-connector.net\MySql.Data.dll</HintPath>
+      <HintPath>..\..\ProjetAirAtlantique\mysql-connector.net\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data.Entity">
-      <HintPath>..\..\..\..\Desktop\mysql-connector.net\MySql.Data.Entity.dll</HintPath>
+      <HintPath>..\..\ProjetAirAtlantique\mysql-connector.net\MySql.Data.Entity.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Web">
-      <HintPath>..\..\..\..\Desktop\mysql-connector.net\MySql.Web.dll</HintPath>
+      <HintPath>..\..\ProjetAirAtlantique\mysql-connector.net\MySql.Web.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -64,6 +64,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="TajetVol.cs" />
+    <Compile Include="Trajet.cs" />
+    <Compile Include="Vol.cs" />
+    <Compile Include="Voyage.cs" />
     <Page Include="FidélitéClient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -72,10 +76,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Aeroport.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Avion.cs" />
     <Compile Include="AvionBinder.cs" />
     <Compile Include="ConnexionMySQL.cs" />
     <Compile Include="FidélitéClient.xaml.cs">
@@ -91,6 +97,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modele.cs" />
+    <Compile Include="Motorisation.cs" />
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Gestion des vols</DependentUpon>
     </Compile>

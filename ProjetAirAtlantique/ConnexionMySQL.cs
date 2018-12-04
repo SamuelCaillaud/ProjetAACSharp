@@ -37,7 +37,7 @@ namespace ProjetAirAtlantique
             List<AvionBinder> ListAvions = new List<AvionBinder>();
 
             string query = "SELECT * FROM avions;";
-            MySqlCommand cmd = new MySqlCommand(query, connection);
+            MySqlCommand cmd = new MySqlCommand(query, connexion);
             cmd.ExecuteNonQuery();
 
             MySqlDataReader reader = cmd.ExecuteReader();
