@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProjetAirAtlantique",
-    "\\ProjetAirAtlantique\\Assets"
+    "\\ProjetAirAtlantique"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\ProjetAirAtlantique\\Gestion des vols.xaml",
-=======
-  "SelectedNode": "\\ProjetAirAtlantique\\ConnexionMySQL.cs",
->>>>>>> bdd
+  "SelectedNode": "\\ProjetAirAtlantique\\ProjetAirAtlantique.csproj",
   "PreviewInSolutionExplorer": false
 }

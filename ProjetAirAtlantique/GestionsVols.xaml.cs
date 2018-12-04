@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace ProjetAirAtlantique
 {
     /// <summary>
-    /// Logique d'interaction pour RéapprovisionnementAvion.xaml
+    /// Logique d'interaction pour GestionsVols.xaml
     /// </summary>
-    public partial class RéapprovisionnementAvion : Page
+    public partial class GestionsVols : Page
     {
-        public RéapprovisionnementAvion()
+        public GestionsVols()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
