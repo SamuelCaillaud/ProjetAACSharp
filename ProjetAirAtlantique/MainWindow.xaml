@@ -6,25 +6,12 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="WhiteSmoke">
+    <Grid Background="CornflowerBlue">
+        <Label Content="Air Atlantique" FontSize="50" Foreground="WhiteSmoke"  Height="64" Margin="240,30,235.6,0" VerticalAlignment="Top" Width="311"/>
+        <Button Content="Vols" FontSize="40" Background="WhiteSmoke" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="58" Margin="100,259,0,0" VerticalAlignment="Top" Width="216"/>
+        <Button Content="Clients" FontSize="40" Background="WhiteSmoke" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Right" Height="58" Margin="0,259,100,0" VerticalAlignment="Top" Width="216"/>
 
-        <Label FontSize="30" Content="Air Atlantique | Administration session" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
-        <Border BorderBrush="Black" BorderThickness="2" Margin="34,240,556.6,136" />
-        <Button FontSize="16" Margin="35,109,557.6,273">Ajouter un avion à arrêter</Button>
-
-        <Border BorderBrush="Black" BorderThickness="2" Margin="34,168,556.6,207" />
-        <Button FontSize="16" Margin="35,170,557.6,208">Fidéliser un client</Button>
-
-        <Border BorderBrush="Black" BorderThickness="2" Margin="34,109,557.6,273" />
-        <Button FontSize="16" Margin="35,242,557.6,137">Planifier une maintenance</Button>
-
-        <Border BorderBrush="Black" BorderThickness="2" Margin="34,307,556.6,70" />
-        <Button FontSize="16" Margin="35,308,557.6,71">Passer une commande de Réapprovisionnement</Button>
-        
-        <Border BorderBrush="Black" BorderThickness="2" Margin="673,304,5.6,6" ></Border>
-        <Image Margin="677,308,9.6,10" Source="logo.PNG" Stretch="Fill"/>
-        
 
     </Grid>
 </Window>

@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProjetAirAtlantique",
-    "\\ProjetAirAtlantique\\Assets"
+    "\\ProjetAirAtlantique"
   ],
-  "SelectedNode": "\\ProjetAirAtlantique\\Assets\\logo.PNG",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "SelectedNode": "\\ProjetAirAtlantique\\Gestion des vols.xaml",
+=======
+  "SelectedNode": "\\ProjetAirAtlantique\\ConnexionMySQL.cs",
+>>>>>>> bdd
+=======
+  "SelectedNode": "\\ProjetAirAtlantique\\ProjetAirAtlantique.csproj",
+>>>>>>> XMLmodif
   "PreviewInSolutionExplorer": false
 }

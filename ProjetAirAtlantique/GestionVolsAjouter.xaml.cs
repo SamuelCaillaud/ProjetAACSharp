@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ProjetAirAtlantique
 {
     /// <summary>
-    /// Logique d'interaction pour Page2.xaml
+    /// Logique d'interaction pour GestionVolsAjouter.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class GestionVolsAjouter : Page
     {
-        public Page2()
+        public GestionVolsAjouter()
         {
             InitializeComponent();
         }
