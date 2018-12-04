@@ -68,6 +68,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="GestionVolsAjouter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionVolsAjouter2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionVolsModifier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,6 +92,15 @@
     <Compile Include="ConnexionMySQL.cs" />
     <Compile Include="GestionsVols.xaml.cs">
       <DependentUpon>GestionsVols.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVolsAjouter.xaml.cs">
+      <DependentUpon>GestionVolsAjouter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVolsAjouter2.xaml.cs">
+      <DependentUpon>GestionVolsAjouter2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVolsModifier.xaml.cs">
+      <DependentUpon>GestionVolsModifier.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
