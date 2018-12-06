@@ -3,14 +3,6 @@
     "",
     "\\ProjetAirAtlantique"
   ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "SelectedNode": "\\ProjetAirAtlantique\\Gestion des vols.xaml",
-=======
-  "SelectedNode": "\\ProjetAirAtlantique\\ConnexionMySQL.cs",
->>>>>>> bdd
-=======
-  "SelectedNode": "\\ProjetAirAtlantique\\ProjetAirAtlantique.csproj",
->>>>>>> XMLmodif
+  "SelectedNode": "\\ProjetAirAtlantique\\GestionsVols.xaml",
   "PreviewInSolutionExplorer": false
 }
